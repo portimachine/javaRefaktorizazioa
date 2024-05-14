@@ -28,6 +28,118 @@ import java.awt.Color;
 
 public class pertsona extends JFrame{
 	
+	/**
+	 * @return the txtIzena
+	 */
+	private JTextField getTxtIzena() {
+		return txtIzena;
+	}
+
+	/**
+	 * @param txtIzena the txtIzena to set
+	 */
+	private void setTxtIzena(JTextField txtIzena) {
+		this.txtIzena = txtIzena;
+	}
+
+	/**
+	 * @return the txtBankuZenbakia
+	 */
+	private JTextField getTxtBankuZenbakia() {
+		return txtBankuZenbakia;
+	}
+
+	/**
+	 * @param txtBankuZenbakia the txtBankuZenbakia to set
+	 */
+	private void setTxtBankuZenbakia(JTextField txtBankuZenbakia) {
+		this.txtBankuZenbakia = txtBankuZenbakia;
+	}
+
+	/**
+	 * @return the txtIzena1
+	 */
+	private JTextField getTxtIzena1() {
+		return txtIzena1;
+	}
+
+	/**
+	 * @param txtIzena1 the txtIzena1 to set
+	 */
+	private void setTxtIzena1(JTextField txtIzena1) {
+		this.txtIzena1 = txtIzena1;
+	}
+
+	/**
+	 * @return the txtAbz1
+	 */
+	private JTextField getTxtAbz1() {
+		return txtAbz1;
+	}
+
+	/**
+	 * @param txtAbz1 the txtAbz1 to set
+	 */
+	private void setTxtAbz1(JTextField txtAbz1) {
+		this.txtAbz1 = txtAbz1;
+	}
+
+	/**
+	 * @return the txtAbz2
+	 */
+	private JTextField getTxtAbz2() {
+		return txtAbz2;
+	}
+
+	/**
+	 * @param txtAbz2 the txtAbz2 to set
+	 */
+	private void setTxtAbz2(JTextField txtAbz2) {
+		this.txtAbz2 = txtAbz2;
+	}
+
+	/**
+	 * @return the txtBankuZenb
+	 */
+	private JTextField getTxtBankuZenb() {
+		return txtBankuZenb;
+	}
+
+	/**
+	 * @param txtBankuZenb the txtBankuZenb to set
+	 */
+	private void setTxtBankuZenb(JTextField txtBankuZenb) {
+		this.txtBankuZenb = txtBankuZenb;
+	}
+
+	/**
+	 * @return the textIzena1
+	 */
+	private JTextField getTextIzena1() {
+		return textIzena1;
+	}
+
+	/**
+	 * @param textIzena1 the textIzena1 to set
+	 */
+	private void setTextIzena1(JTextField textIzena1) {
+		this.textIzena1 = textIzena1;
+	}
+
+	/**
+	 * @return the textAbizena1
+	 */
+	private JTextField getTextAbizena1() {
+		return textAbizena1;
+	}
+
+	/**
+	 * @param textAbizena1 the textAbizena1 to set
+	 */
+	private void setTextAbizena1(JTextField textAbizena1) {
+		this.textAbizena1 = textAbizena1;
+	}
+
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTable table;
