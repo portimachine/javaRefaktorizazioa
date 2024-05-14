@@ -76,10 +76,11 @@ public class pertsona extends JFrame{
 		JButton btnTaula = new JButton("Hornitzaileen taula");
 		btnTaula.setBounds(10, 11, 158, 23);
 		btnTaula.addActionListener(new ActionListener() {
+			private final String sql = "SELECT * FROM hornitzailea";
+
 			public void actionPerformed(ActionEvent e) {
 				konexioa kon=new konexioa();
 				Connection conexion = kon.getConnection();
-				String sql = "SELECT * FROM hornitzailea";
 				Statement st;
 				ResultSet rs;
 				
